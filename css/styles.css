@@ -1,0 +1,100 @@
+* {
+    margin: auto;
+}
+
+
+.arrow {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: white;
+    border-radius: 45px;
+    padding: 10px;
+    font-weight: bolder;
+}
+.cover {
+    position: relative;
+    top: -5px;
+    margin: auto;
+    filter: brightness(50%)
+}
+
+.takeoutCard {
+    width: 100%;
+    position: absolute;
+    top: 240px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(93, 209, 199);
+    border-radius: 35px 35px;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+    font-size: 1rem;
+    margin-bottom: -5%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fiftyP {
+    color: rgb(93, 209, 199);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.foodNDrinks {
+    color: rgb(93, 209, 199);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.mainCard {
+    color: rgb(76, 76, 76);
+    width: 100%;
+    position: absolute;
+    flex-direction: column;
+    top: 290px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 35px 35px;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    margin-bottom: -5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.button {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(93, 209, 199);
+    border-radius: 60px;
+    padding-top: .50rem;
+    padding-bottom: .50rem;
+    color: white;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.line {
+    size:1rem;
+    width:90%; 
+    color:rgb(182, 182, 182);
+}
+
+.bulletPoints {
+    color: rgb(182, 182, 182);
+    text-align: left;
+    list-style-position: outside;
+    display: inline-block;
+    padding-bottom: auto;
+    padding-top: auto;
+    font-size: .75rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+ 
